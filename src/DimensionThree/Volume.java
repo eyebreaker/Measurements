@@ -40,10 +40,10 @@ public abstract class Volume extends Unit {
         return new TSP(getQuantityInBaseUnit());
     }
 
-   /* public Volume add(Volume volume) throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
-        Constructor<?> cons = Class.forName(this.getClass().getName()).getConstructor(TSP.class);
+    /*public Volume add(Volume volume) throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
+        Constructor<?> cons = this.getClass().getConstructor(TSP.class);
         Volume parameter = (Volume) cons.newInstance(volume.getInBaseUnit());
-        cons = Class.forName(this.getClass().getName()).getConstructor(TSP.class);
+        cons = this.getClass().getConstructor(TSP.class);
         Object result = cons.newInstance(this.getValue() + parameter.getValue());
         return (Volume) result;
     }*/

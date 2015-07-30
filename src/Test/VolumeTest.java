@@ -30,10 +30,24 @@ public class VolumeTest {
     }
 
     @Test
-    public void testAddMethod() throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
+    public void testAddMethodAddingTBSPToOZ() throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
         TBSP tbsp = new TBSP(4);
         OZ oz = new OZ(3);
         assertTrue(new OZ(5).equals(oz.add(tbsp)));
+    }
+
+    @Test
+    public void testAddMethodAddingOZToTBSP() throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
+        TBSP tbsp = new TBSP(4);
+        OZ oz = new OZ(3);
+        assertTrue(new TBSP(10).equals(tbsp.add(oz)));
+    }
+
+    @Test
+    public void testAddMethodAddingCupToTBSP() throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
+        TBSP tbsp = new TBSP(4);
+        Cup cup = new Cup(3);
+        assertTrue(new TBSP(52).equals(tbsp.add(cup)));
     }
 
 }

@@ -2,25 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3e965c5-ce3c-4d99-be4b-45ce892bbe54" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DimensionOne/Centimeter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DimensionThree/Cup.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DimensionOne/Feet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DimensionOne/Inch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DimensionOne/Length.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Test/LengthTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DimensionOne/Meter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DimensionThree/OZ.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DimensionThree/TBSP.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DimensionThree/TSP.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DimensionZero/Unit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DimensionThree/Volume.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Test/VolumeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DimensionOne/Yard.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="DELETED" beforePath="C:\Users\Bhushan\IdeaProjects\Measurements\src\Source\CentiMeter.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Measurements.iml" afterPath="$PROJECT_DIR$/Measurements.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Temperature/Celsius.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Temperature/Fahrenheit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Temperature/UnscaledMeasure.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Test/UnscaledMeasureTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Measurements/DimensionThree/TBSP.class" afterPath="$PROJECT_DIR$/out/production/Measurements/DimensionThree/TBSP.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Measurements/DimensionThree/TSP.class" afterPath="$PROJECT_DIR$/out/production/Measurements/DimensionThree/TSP.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Measurements/Test/VolumeTest.class" afterPath="$PROJECT_DIR$/out/production/Measurements/Test/VolumeTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DimensionThree/Volume.java" afterPath="$PROJECT_DIR$/src/DimensionThree/Volume.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test/VolumeTest.java" afterPath="$PROJECT_DIR$/src/Test/VolumeTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Measurements.iws" />
@@ -43,21 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Length.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DimensionOne/Length.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3538462">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Volume.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DimensionThree/Volume.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="48" column="7" selection-start-line="42" selection-start-column="3" selection-end-line="48" selection-end-column="7" />
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#269#270#0" expanded="true" />
@@ -71,71 +51,68 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cup.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DimensionThree/Cup.java">
+      <file leaf-file-name="UnscaledMeasure.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Temperature/UnscaledMeasure.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
-                <element signature="e#183#184#0" expanded="true" />
-                <element signature="e#214#215#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#701#702#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OZ.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DimensionThree/OZ.java">
+      <file leaf-file-name="Celsius.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Temperature/Celsius.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="5" selection-start-line="21" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TBSP.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DimensionThree/TBSP.java">
+      <file leaf-file-name="Fahrenheit.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Temperature/Fahrenheit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.74204355">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
+                <element signature="e#155#156#0" expanded="true" />
                 <element signature="e#186#187#0" expanded="true" />
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TSP.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DimensionThree/TSP.java">
+      <file leaf-file-name="UnscaledMeasureTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test/UnscaledMeasureTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-              <folding>
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VolumeTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test/VolumeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,8 +125,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -180,12 +157,18 @@
         <option value="$PROJECT_DIR$/src/DimensionOne/Length.java" />
         <option value="$PROJECT_DIR$/src/DimensionZero.java" />
         <option value="$PROJECT_DIR$/src/DimensionZero/Unit.java" />
-        <option value="$PROJECT_DIR$/src/DimensionThree/Volume.java" />
-        <option value="$PROJECT_DIR$/src/DimensionThree/Cup.java" />
         <option value="$PROJECT_DIR$/src/DimensionThree/OZ.java" />
-        <option value="$PROJECT_DIR$/src/Test/VolumeTest.java" />
         <option value="$PROJECT_DIR$/src/DimensionThree/TBSP.java" />
         <option value="$PROJECT_DIR$/src/DimensionThree/TSP.java" />
+        <option value="$PROJECT_DIR$/src/Test/VolumeTest.java" />
+        <option value="$PROJECT_DIR$/src/DimensionThree/Cup.java" />
+        <option value="$PROJECT_DIR$/src/DimensionThree/Volume.java" />
+        <option value="$PROJECT_DIR$/src/Temperature/Farenheit.java" />
+        <option value="$PROJECT_DIR$/src/Temperature/Celcius.java" />
+        <option value="$PROJECT_DIR$/src/Temperature/UnscaledMeasure.java" />
+        <option value="$PROJECT_DIR$/src/Test/UnscaledMeasureTest.java" />
+        <option value="$PROJECT_DIR$/src/Temperature/Celsius.java" />
+        <option value="$PROJECT_DIR$/src/Temperature/Fahrenheit.java" />
       </list>
     </option>
   </component>
@@ -261,8 +244,22 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
+              <option name="myItemId" value="Measurements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Measurements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Temperature" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -302,24 +299,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Measurements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Measurements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DimensionOne" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -347,111 +326,7 @@
       <recent name="Source" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.VolumeTest.testAddMethod">
-    <configuration default="false" name="LengthTest.testMeterToFeet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Measurements" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.LengthTest" />
-      <option name="METHOD_NAME" value="testMeterToFeet" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="LengthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Measurements" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.LengthTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="VolumeTest.testOztsp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Measurements" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.VolumeTest" />
-      <option name="METHOD_NAME" value="testOztsp" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="VolumeTest.testVolumeToLengthEqualsIsFale" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Measurements" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.VolumeTest" />
-      <option name="METHOD_NAME" value="testVolumeToLengthEqualsIsFale" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.UnscaledMeasureTest.testFahrenheitAddition">
     <configuration default="false" name="VolumeTest.testAddMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -465,6 +340,110 @@
       <option name="PACKAGE_NAME" value="Test" />
       <option name="MAIN_CLASS_NAME" value="Test.VolumeTest" />
       <option name="METHOD_NAME" value="testAddMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="VolumeTest.testAddMethodAddingOZToTBSP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Measurements" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.VolumeTest" />
+      <option name="METHOD_NAME" value="testAddMethodAddingOZToTBSP" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="VolumeTest.testAddMethodAddingCupToTBSP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Measurements" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.VolumeTest" />
+      <option name="METHOD_NAME" value="testAddMethodAddingCupToTBSP" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="UnscaledMeasureTest.testFarenheit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Measurements" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.UnscaledMeasureTest" />
+      <option name="METHOD_NAME" value="testFarenheit" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="UnscaledMeasureTest.testFahrenheitAddition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Measurements" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.UnscaledMeasureTest" />
+      <option name="METHOD_NAME" value="testFahrenheitAddition" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -626,19 +605,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.LengthTest.testMeterToFeet" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LengthTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.VolumeTest.testOztsp" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.VolumeTest.testVolumeToLengthEqualsIsFale" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.VolumeTest.testAddMethod" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.VolumeTest.testAddMethod" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.VolumeTest.testAddMethodAddingOZToTBSP" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.VolumeTest.testAddMethodAddingCupToTBSP" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UnscaledMeasureTest.testFarenheit" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UnscaledMeasureTest.testFahrenheitAddition" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.VolumeTest.testAddMethod" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.VolumeTest.testOztsp" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.VolumeTest.testVolumeToLengthEqualsIsFale" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.LengthTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.LengthTest.testMeterToFeet" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UnscaledMeasureTest.testFahrenheitAddition" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UnscaledMeasureTest.testFarenheit" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.VolumeTest.testAddMethodAddingCupToTBSP" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.VolumeTest.testAddMethodAddingOZToTBSP" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.VolumeTest.testAddMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -663,14 +642,14 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290938" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26573938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -683,6 +662,31 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290938" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26573938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -724,10 +728,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding>
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -736,12 +737,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
           <folding>
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="false" />
+            <element signature="e#252#253#0" expanded="false" />
+            <element signature="e#204#205#0" expanded="false" />
+            <element signature="e#252#253#0" expanded="false" />
+            <element signature="e#351#352#0" expanded="false" />
+            <element signature="e#409#410#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -751,12 +752,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="12" selection-end-column="5" />
           <folding>
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="false" />
+            <element signature="e#237#238#0" expanded="false" />
+            <element signature="e#190#191#0" expanded="false" />
+            <element signature="e#237#238#0" expanded="false" />
+            <element signature="e#335#336#0" expanded="false" />
+            <element signature="e#390#391#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -765,10 +766,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding>
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -785,12 +783,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
           <folding>
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="false" />
+            <element signature="e#252#253#0" expanded="false" />
+            <element signature="e#204#205#0" expanded="false" />
+            <element signature="e#252#253#0" expanded="false" />
+            <element signature="e#351#352#0" expanded="false" />
+            <element signature="e#409#410#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -800,12 +798,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
           <folding>
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="false" />
+            <element signature="e#237#238#0" expanded="false" />
+            <element signature="e#190#191#0" expanded="false" />
+            <element signature="e#237#238#0" expanded="false" />
+            <element signature="e#335#336#0" expanded="false" />
+            <element signature="e#390#391#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -822,10 +820,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-          <folding>
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -841,24 +836,90 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7897436">
           <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DimensionThree/TBSP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding>
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="false" />
+            <element signature="e#217#218#0" expanded="false" />
+            <element signature="e#330#331#0" expanded="false" />
+            <element signature="e#362#363#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DimensionThree/OZ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="5" selection-start-line="21" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#179#180#0" expanded="false" />
+            <element signature="e#210#211#0" expanded="false" />
+            <element signature="e#235#236#0" expanded="false" />
+            <element signature="e#261#262#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DimensionOne/Length.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DimensionThree/TSP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding>
+            <element signature="e#271#272#0" expanded="false" />
+            <element signature="e#297#298#0" expanded="false" />
+            <element signature="e#329#330#0" expanded="false" />
+            <element signature="e#417#418#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/VolumeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DimensionThree/Cup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding>
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DimensionZero/Unit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6051282">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.95897436">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
           <folding>
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
+            <element signature="docComment;class#Unit#0" expanded="false" />
             <element signature="e#273#274#0" expanded="true" />
             <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -866,7 +927,7 @@
     <entry file="file://$PROJECT_DIR$/src/DimensionThree/Volume.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="7" selection-start-line="42" selection-start-column="3" selection-end-line="48" selection-end-column="7" />
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#269#270#0" expanded="true" />
@@ -879,73 +940,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DimensionThree/Cup.java">
+    <entry file="file://$PROJECT_DIR$/src/Temperature/UnscaledMeasure.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/VolumeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Test/UnscaledMeasureTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DimensionThree/TBSP.java">
+    <entry file="file://$PROJECT_DIR$/src/Temperature/Celsius.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Temperature/Fahrenheit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74204355">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#155#156#0" expanded="true" />
             <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DimensionThree/OZ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="5" selection-start-line="21" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DimensionThree/TSP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding>
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DimensionOne/Length.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3538462">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
